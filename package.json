@@ -19,7 +19,8 @@
   },
   "scripts": {
     "dev": "vuepress dev docs --temp .temp",
-    "build": "vuepress build docs --dest docs-dist",
+    "build": "bash deploy.sh",
+    "docs:build": "vuepress build docs --dest docs-dist",
     "version": "conventional-changelog -p angular -i CHANGELOG.md -s -r 1 && git add CHANGELOG.md"
   },
   "peerDependencies": {
