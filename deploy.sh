@@ -1,3 +1,5 @@
+git push
+
 yarn
 yarn docs:build
 
@@ -10,8 +12,6 @@ rm -rf ./*
 mv ../docs-dist ./
 mv ./docs-dist/* ./
 
-rm \'.gitignore\'
-rm \'.vscode\'
 rm -rf ./docs-dist
 
 git add .
@@ -21,3 +21,4 @@ git push origin gh-pages -f
 
 git checkout master
 git branch gh-pages -D
+yarn
