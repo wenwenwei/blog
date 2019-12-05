@@ -1,3 +1,4 @@
+yarn
 yarn docs:build
 
 mv ./docs-dist ../
