@@ -6,7 +6,7 @@ aside: false
 
 ## Add more pages
 
-You can add more pages
+You can add more pages.
 
 First, create another directory, and put a `index.md` or `README.md` in it:
 
