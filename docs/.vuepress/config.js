@@ -93,13 +93,13 @@ module.exports = {
       { text: "Custom Pages", link: "/custom-pages/", exact: false },
       {
         text: "Github",
-        link: "https://github.com/meteorlxy/vuepress-theme-meteorlxy"
+        link: "https://github.com/wenwenwei/blog"
       }
     ],
 
     comments: {
-      owner: "meteorlxy",
-      repo: "vuepress-theme-neon",
+      owner: "David",
+      repo: "vuepress-blog",
       clientId: "cbda894952ba70c00666",
       clientSecret: "1ade785ca693bf3092be5e5338720d5ee43672b7",
       autoCreateIssue: false

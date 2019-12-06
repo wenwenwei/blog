@@ -1,6 +1,7 @@
 ---
 category: Guide
 tags:
+  - jvascript
   - zh
 date: 2019-03-22
 title: 标题栏的设置

@@ -1,21 +1,21 @@
 {
-  "name": "vuepress-theme-neon",
+  "name": "vuepress-blog",
   "version": "1.0.0-alpha.36",
   "description": "Vuepress theme - neon",
-  "author": "summer1874 <summer19941126@gmail.com>",
+  "author": "David <david_weiwenwen@163.com>",
   "license": "MIT",
   "main": "lib/index.js",
   "keywords": [
     "vuepress",
     "theme"
   ],
-  "homepage": "https://github.com/summer1874/vuepress-theme-neon",
+  "homepage": "vuepress-blog",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/summer1874/vuepress-theme-neon.git"
+    "url": "git+https://github.com/wenwenwei/blog.git"
   },
   "bugs": {
-    "url": "https://github.com/summer1874/vuepress-theme-neon/issues"
+    "url": "https://github.com/wenwenwei/blog/issues"
   },
   "scripts": {
     "dev": "vuepress dev docs --temp .temp",
