@@ -2,7 +2,7 @@
 top: 2
 category: Guide
 tags:
-  - zh
+  - guide
 date: 2019-02-26
 title: 主题使用指南
 lang: zh-CN

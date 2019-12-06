@@ -1,8 +1,7 @@
 ---
 category: Guide
 tags:
-  - jvascript
-  - zh
+  - guide
 date: 2019-03-22
 title: 标题栏的设置
 lang: zh-CN
