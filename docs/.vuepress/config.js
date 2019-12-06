@@ -67,8 +67,8 @@ module.exports = {
 
       sns: {
         github: {
-          account: "meteorlxy",
-          link: "https://github.com/meteorlxy"
+          account: "wenwenwei",
+          link: "https://github.com/wenwenwei/blog"
         }
       }
     },
