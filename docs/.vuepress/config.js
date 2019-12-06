@@ -4,9 +4,9 @@ const path = require("path");
 const BATH_PATH = "/blog/";
 
 module.exports = {
-  title: "vuepress-theme-neon",
+  title: "David-Blog",
 
-  description: "Vuepress theme of neon's blog",
+  description: "a user blog",
 
   base: BATH_PATH,
 
