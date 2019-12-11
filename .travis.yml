@@ -1,12 +1,24 @@
 language: node_js
 node_js:  
-     - 12
+  - 12
 sudo: required
+branches:
+  only:
+    -  master
+cache:
+  directories:
+    - "node_modules"
 script:
-    - yarn && yarn build
+  - set -e
+  - yarn && yarn build
 deploy:
   provider: pages
   skip_cleanup: true
   github_token: $GITHUB_TOKEN
+  keep_history: true
+  local_dir: docs
+  target_branch: gh-pages
   on:
     branch: master
+
+
