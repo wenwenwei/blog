@@ -1,7 +1,7 @@
 {
   "name": "vuepress-blog",
   "version": "1.0.0-alpha.36",
-  "description": "Vuepress theme - neon",
+  "description": "Vuepress blog",
   "author": "David <david_weiwenwen@163.com>",
   "license": "MIT",
   "main": "lib/index.js",
@@ -18,8 +18,8 @@
     "url": "https://github.com/wenwenwei/blog/issues"
   },
   "scripts": {
-    "dev": "vuepress dev docs --temp .temp",
-    "build": "vuepress build docs --dest docs-dist",
+    "dev": "vuepress dev src --temp .temp",
+    "build": "vuepress build src --dest docs",
     "version": "conventional-changelog -p angular -i CHANGELOG.md -s -r 1 && git add CHANGELOG.md"
   },
   "peerDependencies": {
