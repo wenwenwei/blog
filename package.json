@@ -19,9 +19,8 @@
   },
   "scripts": {
     "dev": "vuepress dev src --temp .temp",
-    "build": "vuepress build src --dest docs",
-    "version": "conventional-changelog -p angular -i CHANGELOG.md -s -r 1 && git add CHANGELOG.md",
-    "test": ""
+    "build": "vuepress build src --dest dist",
+    "version": "conventional-changelog -p angular -i CHANGELOG.md -s -r 1 && git add CHANGELOG.md"
   },
   "peerDependencies": {
     "vuepress": "1.0.0-alpha.48"
