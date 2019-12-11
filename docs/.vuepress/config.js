@@ -1,7 +1,7 @@
 const path = require("path");
 
 /**[根目录路径] */
-const BATH_PATH = "/blog/";
+const BATH_PATH = "/";
 
 module.exports = {
   title: "David-Blog",
